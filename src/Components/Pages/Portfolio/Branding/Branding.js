@@ -1,7 +1,13 @@
 import React from "react";
+import ArtCard from "../../../ArtCard";
+import { BrandOne } from "./Data";
 
 function Branding() {
-  return <div>Branding</div>;
+  return (
+    <>
+      <ArtCard {...BrandOne} />
+    </>
+  );
 }
 
 export default Branding;

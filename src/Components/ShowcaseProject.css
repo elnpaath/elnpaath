@@ -1,0 +1,15 @@
+.project__show {
+  display: flex;
+  width: 100%;
+  object-fit: contain;
+}
+
+.project__show div {
+  width: 200px;
+  height: 200px;
+}
+.project__show img {
+  object-fit: contain;
+  max-width: 100%;
+  height: auto;
+}

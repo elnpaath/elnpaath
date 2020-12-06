@@ -1,6 +1,6 @@
 import React from "react";
 import QuestionAnswer from "../../QuestionAnswer";
-import { homeObjOne, showcaseObjOne } from "./Data";
+import { homeObjOne } from "./Data";
 
 function Home() {
   return (

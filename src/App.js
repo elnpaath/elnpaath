@@ -6,7 +6,10 @@ import Portfolio from "./Components/Pages/Portfolio/Portfolio";
 import Shop from "./Components/Pages/Shop/Shop";
 import Contacts from "./Components/Pages/Contacts/Contacts";
 import Home from "./Components/Pages/Home/Home";
-import Project from "./Components/Pages/Project/Project.js";
+import Project from "./Components/Pages/Project/Project";
+import Illustrations from "./Components/Pages/Portfolio/Illustrations/Illustrations";
+import Layout from "./Components/Pages/Portfolio/Layout/Layout";
+import Branding from "./Components/Pages/Portfolio/Branding/Branding";
 
 class App extends Component {
   render() {
@@ -21,6 +24,9 @@ class App extends Component {
               <Route path="/shop" component={Shop} />
               <Route path="/contact" component={Contacts} />
               <Route path="/project" component={Project} />
+              <Route path="/illustrations" component={Illustrations} />
+              <Route path="/layout" component={Layout} />
+              <Route path="/branding" component={Branding} />
             </Switch>
           </div>
           {/* <Footer /> */}

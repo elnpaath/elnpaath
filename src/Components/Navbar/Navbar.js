@@ -21,13 +21,21 @@ function Navbar() {
     }
   };
 
-  // const onMouseEnter = () => {
-  //   if (window.innerWidth < 960) {
-  //     setDropdown(false);
-  //   } else {
-  //     setDropdown(true);
-  //   }
-  // };
+  const onMouseEnter = () => {
+    if (window.innerWidth < 960) {
+      setDropdown(false);
+    } else {
+      setDropdown(true);
+    }
+  };
+
+  const onMouseLeave = () => {
+    if (window.innerWidth < 960) {
+      setDropdown(false);
+    } else {
+      setDropdown(false);
+    }
+  };
 
   useEffect(() => {
     showButton();
@@ -56,7 +64,11 @@ function Navbar() {
                   {NavBarOBj.Menu1}
                 </Link>
               </li>
-              <li className="nav-item">
+              <li
+                className="nav-item"
+                onMouseEnter={onMouseEnter}
+                onMouseLeave={onMouseLeave}
+              >
                 <Link
                   to="/portfolio"
                   className="nav-links"
@@ -64,7 +76,7 @@ function Navbar() {
                 >
                   {NavBarOBj.Menu2}
                 </Link>
-                {dropdown && <Dropdown />}
+                {dropdown && <Dropdown onMouseEnter={onMouseEnter} />}
               </li>
               <li className="nav-item">
                 <Link

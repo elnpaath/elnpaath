@@ -43,7 +43,9 @@ function Navbar() {
             alt="elndraws"
           />
           <img src="/images/eln1.jpg" alt="" />
-          <div className="name-title">eln paath</div>
+          <div className="name-title">
+            <p>eln paath</p>
+          </div>
         </div>
         <div className="navbar">
           <div className="navbar-container container">

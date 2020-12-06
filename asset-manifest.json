@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/elnpaath/static/css/main.bce1fefb.chunk.css",
-    "main.js": "/elnpaath/static/js/main.a245c1a3.chunk.js",
-    "main.js.map": "/elnpaath/static/js/main.a245c1a3.chunk.js.map",
+    "main.css": "/elnpaath/static/css/main.6fd18d85.chunk.css",
+    "main.js": "/elnpaath/static/js/main.84c00480.chunk.js",
+    "main.js.map": "/elnpaath/static/js/main.84c00480.chunk.js.map",
     "runtime-main.js": "/elnpaath/static/js/runtime-main.0e25d402.js",
     "runtime-main.js.map": "/elnpaath/static/js/runtime-main.0e25d402.js.map",
     "static/js/2.3b801cf3.chunk.js": "/elnpaath/static/js/2.3b801cf3.chunk.js",
     "static/js/2.3b801cf3.chunk.js.map": "/elnpaath/static/js/2.3b801cf3.chunk.js.map",
     "index.html": "/elnpaath/index.html",
-    "static/css/main.bce1fefb.chunk.css.map": "/elnpaath/static/css/main.bce1fefb.chunk.css.map",
+    "static/css/main.6fd18d85.chunk.css.map": "/elnpaath/static/css/main.6fd18d85.chunk.css.map",
     "static/js/2.3b801cf3.chunk.js.LICENSE.txt": "/elnpaath/static/js/2.3b801cf3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0e25d402.js",
     "static/js/2.3b801cf3.chunk.js",
-    "static/css/main.bce1fefb.chunk.css",
-    "static/js/main.a245c1a3.chunk.js"
+    "static/css/main.6fd18d85.chunk.css",
+    "static/js/main.84c00480.chunk.js"
   ]
 }

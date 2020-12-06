@@ -11,7 +11,7 @@ import Project from "./Components/Pages/Project/Project.js";
 class App extends Component {
   render() {
     return (
-      <HashRouter basename="/">
+      <HashRouter basename={process.env.PUBLIC_URL}>
         <div className="app-container">
           <Navbar />
           <div className="main-content">

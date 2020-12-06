@@ -1,27 +1,37 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "./Navbar.css";
+import Dropdown from "../Dropdown";
 
 function Navbar() {
   const [click, setClick] = useState(false);
-  // const [button, setButton] = useState(true);
+  const [dropdown, setDropdown] = useState(false);
+  const [button, setButton] = useState(true);
 
-  //   const handleClick = () => setClick(!click);
+  const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
-  //   const showButton = () => {
-  //     if (window.innerWidth <= 960) {
-  //       setButton(false);
-  //     } else {
-  //       setButton(true);
-  //     }
-  //   };
+  const showButton = () => {
+    if (window.innerWidth <= 960) {
+      setButton(false);
+    } else {
+      setButton(true);
+    }
+  };
 
-  //   useEffect(() => {
-  //     showButton();
-  //   }, []);
-  //   window.addEventListener("resize", showButton);
+  const onMouseEnter = () => {
+    if (window.innerWidth < 960) {
+      setDropdown(false);
+    } else {
+      setDropdown(true);
+    }
+  };
+
+  useEffect(() => {
+    showButton();
+  }, []);
+  window.addEventListener("resize", showButton);
 
   return (
     <>
@@ -37,10 +47,10 @@ function Navbar() {
         </div>
         <div className="navbar">
           <div className="navbar-container container">
-            <div className="menu-icon" onClick={closeMobileMenu}>
+            <div className="menu-icon" onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
             </div>
-            <ul className="nav-menu">
+            <ul className={click ? "nav-menu active" : "nav-menu"}>
               <li className="nav-item">
                 <Link to="/" className="nav-links" onClick={closeMobileMenu}>
                   ABOUT
@@ -54,6 +64,7 @@ function Navbar() {
                 >
                   PORTFOLIO
                 </Link>
+                {dropdown && <Dropdown />}
               </li>
               <li className="nav-item">
                 <Link

@@ -26,3 +26,9 @@ p {
   margin-top: 82px;
   margin-bottom: 82px;
 }
+
+@media screen and (max-width: 991px) {
+  .app-container {
+    margin: 0;
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/elnpaath/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/elnpaath/static/js/main.307e4d5c.chunk.js",
+    "main.js.map": "/elnpaath/static/js/main.307e4d5c.chunk.js.map",
+    "runtime-main.js": "/elnpaath/static/js/runtime-main.af10a039.js",
+    "runtime-main.js.map": "/elnpaath/static/js/runtime-main.af10a039.js.map",
+    "static/js/2.04cc0f58.chunk.js": "/elnpaath/static/js/2.04cc0f58.chunk.js",
+    "static/js/2.04cc0f58.chunk.js.map": "/elnpaath/static/js/2.04cc0f58.chunk.js.map",
+    "static/js/3.c5561c9d.chunk.js": "/elnpaath/static/js/3.c5561c9d.chunk.js",
+    "static/js/3.c5561c9d.chunk.js.map": "/elnpaath/static/js/3.c5561c9d.chunk.js.map",
+    "index.html": "/elnpaath/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/elnpaath/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.04cc0f58.chunk.js.LICENSE.txt": "/elnpaath/static/js/2.04cc0f58.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.af10a039.js",
+    "static/js/2.04cc0f58.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.307e4d5c.chunk.js"
+  ]
+}

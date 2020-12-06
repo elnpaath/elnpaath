@@ -40,10 +40,9 @@ function Navbar() {
         <div className="brand-top">
           <img
             className="logo-img"
-            src={process.env.PUBLIC_URL + "/images/eln1.jpg"}
+            src={process.env.PUBLIC_URL + "/images/pho1.jpg"}
             alt="elndraws"
           />
-          <img src="/images/eln1.jpg" alt="" />
           <div className="name-title">{NavBarOBj.nameLogo}</div>
         </div>
         <div className="navbar">

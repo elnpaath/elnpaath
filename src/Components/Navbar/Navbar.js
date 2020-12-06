@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "./Navbar.css";
 import Dropdown from "../Dropdown";
+import NavBarOBj from "./NavBarObj";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -43,9 +44,7 @@ function Navbar() {
             alt="elndraws"
           />
           <img src="/images/eln1.jpg" alt="" />
-          <div className="name-title">
-            <p>eln paath</p>
-          </div>
+          <div className="name-title">{NavBarOBj.nameLogo}</div>
         </div>
         <div className="navbar">
           <div className="navbar-container container">
@@ -55,7 +54,7 @@ function Navbar() {
             <ul className={click ? "nav-menu active" : "nav-menu"}>
               <li className="nav-item">
                 <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                  ABOUT
+                  {NavBarOBj.Menu1}
                 </Link>
               </li>
               <li className="nav-item">
@@ -64,7 +63,7 @@ function Navbar() {
                   className="nav-links"
                   onClick={closeMobileMenu}
                 >
-                  PORTFOLIO
+                  {NavBarOBj.Menu2}
                 </Link>
                 {dropdown && <Dropdown />}
               </li>
@@ -74,7 +73,7 @@ function Navbar() {
                   className="nav-links"
                   onClick={closeMobileMenu}
                 >
-                  SHOP
+                  {NavBarOBj.Menu3}
                 </Link>
               </li>
               <li className="nav-item">
@@ -83,7 +82,7 @@ function Navbar() {
                   className="nav-links"
                   onClick={closeMobileMenu}
                 >
-                  CONTACT
+                  {NavBarOBj.Menu4}
                 </Link>
               </li>
             </ul>

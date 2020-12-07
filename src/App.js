@@ -14,7 +14,7 @@ import Branding from "./Components/Pages/Portfolio/Branding/Branding";
 class App extends Component {
   render() {
     return (
-      <HashRouter basename={process.env.PUBLIC_URL}>
+      <HashRouter basename={process.env.PUBLIC_URL + "/elnpaath"}>
         <div className="app-container">
           <Navbar />
           <div className="main-content">

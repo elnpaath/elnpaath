@@ -7,7 +7,7 @@ function ArtCard(dat) {
       <div className="artcard__wrapper">
         <img
           className="artcard-img"
-          src={dat.img + "cover.jpg"}
+          src={process.env.PUBLIC_URL + dat.img + "cover.jpg"}
           alt={dat.alt}
         />
         <div className="caption__wrapper">

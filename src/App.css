@@ -26,8 +26,18 @@ p {
   margin-bottom: 82px;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 900px) {
   .app-container {
     margin: 0;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 500px) {
+  .app-container {
+    margin: 0;
+    padding: 0 20px;
+  }
+  .main-content {
+    width: 100%;
   }
 }

@@ -7,13 +7,15 @@
   width: 50%;
   height: auto;
   margin-right: 1rem;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .caption__wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: #fff;
+  padding: 0px 10%;
 }
 
 .caption-title {
@@ -34,4 +36,25 @@
   letter-spacing: 0em;
   text-transform: none;
   opacity: 0.5;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 800px) {
+  .artcard__wrapper {
+    flex-direction: column;
+    margin-bottom: 3rem;
+  }
+  .artcard-img {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+  .caption__wrapper {
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .caption-title {
+    font-size: 2rem;
+  }
 }

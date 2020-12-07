@@ -13,7 +13,7 @@ export const Data = [
     alt: "book",
     title: "The Daily Routine of My Cat Book",
     caption:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, molestiae. Blanditiis, enim.",
+      "A set of travel stickers for Steamline Luggage, a luxury vintage suitcase maker.",
   },
   {
     id: 3,

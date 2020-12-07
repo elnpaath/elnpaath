@@ -1,0 +1,37 @@
+.artcard__wrapper {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.artcard-img {
+  width: 50%;
+  height: auto;
+  margin-right: 1rem;
+  object-fit: contain;
+}
+
+.caption__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.caption-title {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 0.3rem;
+  font-style: normal;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-family: proxima-nova, sans-serif;
+}
+
+.caption {
+  font-family: Merriweather;
+  font-size: 1.3rem;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0em;
+  text-transform: none;
+  opacity: 0.5;
+}

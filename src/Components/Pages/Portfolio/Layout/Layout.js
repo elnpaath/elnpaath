@@ -1,7 +1,17 @@
 import React from "react";
+import ArtCard from "../../../ArtCard";
+import { Data } from "./Data";
 
 function Layout() {
-  return <div>Layout</div>;
+  return (
+    <>
+      {Data.map((dat) => (
+        <>
+          <ArtCard {...dat} />
+        </>
+      ))}
+    </>
+  );
 }
 
 export default Layout;

@@ -1,7 +1,7 @@
 export const Data = [
   {
     id: 1,
-    img: "/images/Branding/KopiCat/",
+    img: "/images/Layout/Dekornata/",
     alt: "Kopi Cat",
     title: "Kopi Cat",
     caption:
@@ -9,7 +9,7 @@ export const Data = [
   },
   {
     id: 2,
-    img: "/images/Branding/Mamake/",
+    img: "/images/Layout/Journey/",
     alt: "Mamake",
     title: "Mamake",
     caption:
@@ -17,7 +17,7 @@ export const Data = [
   },
   {
     id: 3,
-    img: "/images/Branding/Pyramid/",
+    img: "/images/Layout/Neville/",
     alt: "",
     title: "Pyramid Coconut Oil",
     caption:
@@ -25,17 +25,9 @@ export const Data = [
   },
   {
     id: 4,
-    img: "/images/Branding/Roteri/",
+    img: "/images/Layout/Ragunan/",
     alt: "",
     title: "Roteri",
-    caption:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, molestiae. Blanditiis, enim.",
-  },
-  {
-    id: 5,
-    img: "/images/Branding/JungleFlorist/",
-    alt: "",
-    title: "Jungle Florist Rebranding",
     caption:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, molestiae. Blanditiis, enim.",
   },

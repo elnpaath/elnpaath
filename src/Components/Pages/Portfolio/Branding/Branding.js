@@ -1,11 +1,15 @@
 import React from "react";
 import ArtCard from "../../../ArtCard";
-import { BrandOne } from "./Data";
+import { Data } from "./Data";
 
 function Branding() {
   return (
     <>
-      <ArtCard {...BrandOne} />
+      {Data.map((dat) => (
+        <>
+          <ArtCard {...dat} />
+        </>
+      ))}
     </>
   );
 }

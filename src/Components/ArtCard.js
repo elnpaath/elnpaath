@@ -1,13 +1,18 @@
 import React from "react";
+import "./ArtCard.css";
 
-function ArtCard({ img, alt, title, caption }) {
+function ArtCard(dat) {
   return (
     <>
       <div className="artcard__wrapper">
-        <img src={img} alt={alt} />
+        <img
+          className="artcard-img"
+          src={dat.img + "cover.jpg"}
+          alt={dat.alt}
+        />
         <div className="caption__wrapper">
-          <h3 className="caption-title">{title}</h3>
-          <p className="caption">{caption}</p>
+          <h3 className="caption-title">{dat.title}</h3>
+          <p className="caption">{dat.caption}</p>
         </div>
       </div>
     </>

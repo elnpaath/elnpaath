@@ -29,7 +29,7 @@ p {
 @media screen and (max-width: 900px) {
   .app-container {
     margin: 0;
-    padding: 0;
+    padding: 50px;
   }
 }
 @media screen and (max-width: 500px) {

@@ -6,6 +6,7 @@ import { portfolioParagraph } from "./Data";
 function Portfolio() {
   return (
     <>
+      <QuestionAnswer {...portfolioParagraph} />
       <ul>
         <li className="nav-item">
           <Link to="/illustrations" className="nav-item">
@@ -23,8 +24,6 @@ function Portfolio() {
           </Link>
         </li>
       </ul>
-
-      <QuestionAnswer {...portfolioParagraph} />
     </>
   );
 }

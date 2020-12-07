@@ -17,6 +17,7 @@ class App extends Component {
       <HashRouter basename={process.env.PUBLIC_URL}>
         <div className="app-container">
           <Navbar />
+
           <div className="main-content">
             <Switch>
               <Route path="/" exact component={Home} />

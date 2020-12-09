@@ -20,9 +20,10 @@ class App extends Component {
       <HashRouter basename={process.env.PUBLIC_URL}>
         <div className="app-container">
           {/* <Navbar /> */}
-
-          <Navbar2 />
-          <Header />
+          <div className="headerNavReverse">
+            <Navbar2 />
+            <Header />
+          </div>
           <div className="main-content">
             <Switch>
               <Route path="/about" exact component={Home} />
@@ -30,7 +31,7 @@ class App extends Component {
               <Route path="/shop" component={Shop} />
               <Route path="/contact" component={Contacts} />
               <Route path="/project" component={Project} />
-              <Route path="/illustrations" component={Illustrations} />
+              <Route path="/illustration" component={Illustrations} />
               <Route path="/layout" component={Layout} />
               <Route path="/branding" component={Branding} />
             </Switch>

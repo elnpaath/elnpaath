@@ -1,13 +1,16 @@
 .artcard__wrapper {
   display: flex;
-  margin-bottom: 10px;
+  margin: 17px 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
 }
 
 .artcard-img {
-  width: 50%;
+  width: 100%;
   height: auto;
-  margin-right: 1rem;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .caption__wrapper {
@@ -15,11 +18,10 @@
   flex-direction: column;
   justify-content: center;
   background-color: #fff;
-  padding: 0px 10%;
+  padding: 10%;
 }
 
 .caption-title {
-  font-size: 1.2rem;
   font-weight: 300;
   margin-bottom: 0.3rem;
   font-style: normal;
@@ -29,8 +31,6 @@
 }
 
 .caption {
-  font-family: Merriweather;
-  font-size: 1.3rem;
   font-weight: 400;
   font-style: normal;
   letter-spacing: 0em;
@@ -39,7 +39,7 @@
   margin: 0 auto;
 }
 
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
   .artcard__wrapper {
     flex-direction: column;
     margin-bottom: 3rem;
@@ -57,4 +57,4 @@
   .caption-title {
     font-size: 2rem;
   }
-}
+} */

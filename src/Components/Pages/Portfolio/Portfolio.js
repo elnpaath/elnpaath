@@ -9,7 +9,7 @@ function Portfolio() {
       <QuestionAnswer {...portfolioParagraph} />
       <ul>
         <li className="nav-item">
-          <Link to="/illustrations" className="nav-item">
+          <Link to="/illustration" className="nav-item">
             Illustrations
           </Link>
         </li>

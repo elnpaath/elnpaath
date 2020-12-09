@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 
 function Navbar2() {
   const pages = [
-    { id: 1, name: "about" },
-    { id: 2, name: "illustration" },
-    { id: 3, name: "Branding" },
-    { id: 4, name: "Layout Design" },
-    { id: 5, name: "shop" },
-    { id: 6, name: "contact" },
+    { id: 1, name: "about", label: "" },
+    { id: 2, name: "illustration", label: "" },
+    { id: 3, name: "Branding", label: "" },
+    { id: 4, name: "Layout", label: "Layout Design" },
+    { id: 5, name: "shop", label: "" },
+    { id: 6, name: "contact", label: "" },
   ];
 
   const [show, setShow] = useState(false);
@@ -36,7 +36,7 @@ function Navbar2() {
           {pages.map((page) => (
             <li key={page.id} className="navbar2__listItem">
               <Link to={`/${page.name}`} onClick={handleNavbar}>
-                {page.name}
+                {page.label != "" ? page.label : page.name}
               </Link>
             </li>
           ))}

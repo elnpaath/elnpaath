@@ -12,9 +12,7 @@ function Branding() {
         charcoal chillwave leggings kickstarter small batch.
       </div>
       {Data.map((dat) => (
-        <>
-          <ArtCard key={dat.id} {...dat} />
-        </>
+        <ArtCard key={dat.id} {...dat} />
       ))}
     </>
   );

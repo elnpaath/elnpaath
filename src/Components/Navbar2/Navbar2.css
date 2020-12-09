@@ -27,6 +27,10 @@ a {
   padding: 0.5rem;
 }
 
+.navbar2__listItem-selected {
+  color: black;
+}
+
 .navbar2--hide {
   visibility: hidden;
   overflow: hidden;

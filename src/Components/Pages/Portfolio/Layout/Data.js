@@ -5,7 +5,7 @@ export const Data = [
     alt: "Dekornata",
     title: "Dekornata",
     caption:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, molestiae. Blanditiis, enim.",
+      "Godard direct trade drinking vinegar trust fund bushwick pop-up, tattooed vegan.",
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ export const Data = [
     alt: "Journey",
     title: "Journey",
     caption:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, molestiae. Blanditiis, enim.",
+      "Whatever palo santo chartreuse snackwave knausgaard, copper mug prism gochujang schlitz post-ironic.",
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ export const Data = [
     alt: "",
     title: "Neville",
     caption:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, molestiae. Blanditiis, enim.",
+      "Pork belly twee swag tumeric kale chips. Street art skateboard brooklyn vegan microdosing.",
   },
   {
     id: 4,
@@ -29,6 +29,6 @@ export const Data = [
     alt: "",
     title: "Ragunan",
     caption:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, molestiae. Blanditiis, enim.",
+      "Marfa ramps hexagon cred, 3 wolf moon small batch pinterest mlkshk farm-to-table tbh. ",
   },
 ];

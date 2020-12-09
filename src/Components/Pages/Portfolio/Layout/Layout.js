@@ -6,9 +6,7 @@ function Layout() {
   return (
     <>
       {Data.map((dat) => (
-        <>
-          <ArtCard {...dat} />
-        </>
+        <ArtCard key={dat.id} {...dat} />
       ))}
     </>
   );

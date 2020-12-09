@@ -48,7 +48,7 @@ function Navbar() {
         <div className="brand-top">
           <img
             className="logo-img"
-            src={process.env.PUBLIC_URL + "/images/pho1.jpg"}
+            src={process.env.PUBLIC_URL + "/images/pp.jpg"}
             alt="elndraws"
           />
           <div className="name-title">{NavBarOBj.nameLogo}</div>
@@ -56,11 +56,15 @@ function Navbar() {
         <div className="navbar">
           <div className="navbar-container container">
             <div className="menu-icon" onClick={handleClick}>
-              {click ? <FaTimes /> : <FaBars />}
+              {click ? <FaTimes size={32} /> : <FaBars size={32} />}
             </div>
             <ul className={click ? "nav-menu active" : "nav-menu"}>
               <li className="nav-item">
-                <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+                <Link
+                  to="/about"
+                  className="nav-links"
+                  onClick={closeMobileMenu}
+                >
                   {NavBarOBj.Menu1}
                 </Link>
               </li>

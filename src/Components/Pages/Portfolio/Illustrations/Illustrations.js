@@ -6,9 +6,7 @@ function Illustrations() {
   return (
     <>
       {Data.map((dat) => (
-        <>
-          <ArtCard {...dat} />
-        </>
+        <ArtCard key={dat.id} {...dat} />
       ))}
     </>
   );

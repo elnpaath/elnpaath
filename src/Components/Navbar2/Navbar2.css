@@ -26,6 +26,8 @@ a {
 
 .navbar2__listItem {
   padding: 0.5rem;
+  font-size: 16px;
+  letter-spacing: 2px;
 }
 
 .navbar2__listItem-selected {

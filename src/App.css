@@ -36,9 +36,8 @@ a {
 
 .app__mobileMenuLink {
   font-family: proxima-nova, sans-serif;
-  color: #585858;
-  border-top: 1px solid #9e9e9e;
-  border-bottom: 1px solid #9e9e9e;
+  color: #585858be;
+  border-bottom: 2px solid #cfcfcfd8;
   display: block;
   width: 100%;
   padding: 10px;
@@ -46,6 +45,8 @@ a {
   font-weight: 400;
   text-align: center;
   text-transform: uppercase;
+  cursor: pointer;
+  letter-spacing: 1.5px;
 }
 
 .headerNavReverse {

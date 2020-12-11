@@ -12,6 +12,7 @@
   overflow: visible;
   transition: all 0.1s ease;
   max-height: 100%;
+  border-bottom: 2px solid #cfcfcfd8;
 }
 
 a {
@@ -37,6 +38,9 @@ a {
   max-height: 0;
 }
 
+.navbar__link--active {
+  color: black;
+}
 @media screen and (min-width: 510px) {
   .navbar2__list {
     display: flex;

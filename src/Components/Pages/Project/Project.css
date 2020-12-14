@@ -1,0 +1,48 @@
+.project__heading {
+  font-family: proxima-nova, sans-serif;
+  text-align: center;
+  margin-bottom: 17px;
+}
+.project__headingDesc {
+  font-family: Merriweather;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.9em;
+  font-size: 14px;
+  text-transform: none;
+  text-decoration: none;
+  margin: 0 0 1.9em;
+}
+.project__headingTitle {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 400;
+  line-height: 1.6em;
+  letter-spacing: 0.79px;
+}
+.project__imageWrapper {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 17px;
+}
+
+.project__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.project__img img {
+  object-fit: cover;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .project__imageWrapper {
+    grid-template-columns: 30vw 30vw;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 17px;
+  }
+}

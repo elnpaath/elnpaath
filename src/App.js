@@ -13,8 +13,6 @@ import Illustrations from "./Components/Pages/Portfolio/Illustrations/Illustrati
 import Layout from "./Components/Pages/Portfolio/Layout/Layout";
 import Branding from "./Components/Pages/Portfolio/Branding/Branding";
 import Header from "./Components/Header";
-// import Navbar from "./Components/Navbar/Navbar";
-
 const routes = [
   {
     key: 1,
@@ -40,6 +38,51 @@ const routes = [
   { key: 6, path: "/illustration", component: Illustrations },
   { key: 7, path: "/layout-design", component: Layout },
   { key: 8, path: "/branding", component: Branding },
+  { key: 9, path: "/branding/kopi-cat", component: Project },
+  { key: 10, path: "/branding/mamake", component: Project },
+  { key: 11, path: "/branding/pyramid-coconut-oil", component: Project },
+  { key: 12, path: "/branding/roteri", component: Project },
+  { key: 13, path: "/branding/jungle-florist-rebranding", component: Project },
+  {
+    key: 14,
+    path: "/illustrations/averie-patch",
+    component: Project,
+  },
+  {
+    key: 15,
+    path: "/illustrations/the-daily-routine-of-my-cat",
+    component: Project,
+  },
+  {
+    key: 16,
+    path: "/illustrations/the-habits-and-lifestyles-of-happy-people",
+    component: Project,
+  },
+  {
+    key: 17,
+    path: "/illustrations/eln-draws-instagram",
+    component: Project,
+  },
+  {
+    key: 18,
+    path: "/layout/dekornata",
+    component: Project,
+  },
+  {
+    key: 19,
+    path: "/layout/neville",
+    component: Project,
+  },
+  {
+    key: 20,
+    path: "/layout/ragunan",
+    component: Project,
+  },
+  {
+    key: 21,
+    path: "/layout/journey",
+    component: Project,
+  },
 ];
 
 class App extends Component {
@@ -57,9 +100,10 @@ class App extends Component {
             <Switch>
               {routes.map(({ key, path, component: C }) => (
                 <Route
-                  exact={path === "/" ? true : false}
+                  // exact={path === "/" ? true : false}
+                  exact
                   key={key}
-                  path={path}
+                  path={`${path}`}
                   render={(props) => <C {...props} />}
                 />
               ))}

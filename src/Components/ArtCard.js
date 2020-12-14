@@ -6,7 +6,7 @@ function ArtCard(dat) {
   return (
     <>
       <div className="artcard__wrapper">
-        <Link to="/project">
+        <Link to={dat.link}>
           <img
             className="artcard-img"
             src={process.env.PUBLIC_URL + dat.img + "cover.jpg"}
@@ -23,3 +23,7 @@ function ArtCard(dat) {
 }
 
 export default ArtCard;
+// when you click on the link, page will go to routh project/:projectName
+// can you have one project page and depending on which card was clicked, it will load that page. ( so can we use state for this?)
+// HOW??
+// on click on the card, somehow change the state=  "project/name of project" and push this into the Link to=

@@ -84,7 +84,7 @@ a {
 }
 @media screen and (min-width: 900px) {
   .app-container {
-    padding: 100px;
+    padding: 0px 100px;
   }
 
   .main-content {

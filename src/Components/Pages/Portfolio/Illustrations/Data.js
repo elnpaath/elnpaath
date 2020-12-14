@@ -56,7 +56,7 @@ export const Data = [
     img: "/images/Illustrations/Book2/",
     alt: "book",
     title: "The Habits and Lifestyles of Happy People Book",
-    link: "/illustrations/the-habits-and-lifestyles-of-happy-people-book",
+    link: "/illustrations/the-habits-and-lifestyles-of-happy-people",
     caption:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, molestiae. Blanditiis, enim.",
     description:

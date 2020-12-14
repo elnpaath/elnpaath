@@ -40,10 +40,9 @@ export const Data = [
         description:
           "Copper mug listicle activated charcoal, organic post-ironic gentrify banh mi air plant food truck yr small batch VHS brooklyn letterpress.",
         images: [
-          { img: "/images/Branding/Mamake/cover.jpg", alt: "" },
-          { img: "/images/Branding/Mamake/1.jpg", alt: "" },
           { img: "/images/Branding/Mamake/2.jpg", alt: "" },
-          { img: "/images/Branding/Mamake/3.jpg", alt: "" },
+          { img: "/images/Branding/Mamake/1.jpg", alt: "" },
+          { img: "/images/Branding/Mamake/cover.jpg", alt: "" },
         ],
       },
       {

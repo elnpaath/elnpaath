@@ -5,15 +5,11 @@ import { Data } from "./Data";
 import "./Project.css";
 
 function Project() {
-  // console.log(BrandData);
-
-  // console.log(imagesToLoad);
   const arr = window.document.URL.split("/");
   const loc = arr.length;
   const type = arr[loc - 2];
   const dataPicked = Data.filter((dat) => dat.name === type);
   const imgDocArray = dataPicked[0].document;
-  console.log(imgDocArray);
   const fir = window.document.URL.split("/").pop();
   const tree = fir.split("-").join(" ");
   const result = imgDocArray.filter((dat) => dat.title.toLowerCase() === tree);

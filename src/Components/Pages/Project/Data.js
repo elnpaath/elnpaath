@@ -292,8 +292,6 @@ export const Data = [
           { img: "/images/Layout/Ragunan/6.jpg", alt: "" },
           { img: "/images/Layout/Ragunan/7.jpg", alt: "" },
           { img: "/images/Layout/Ragunan/8.jpg", alt: "" },
-          { img: "/images/Layout/Ragunan/9.jpg", alt: "" },
-          { img: "/images/Layout/Ragunan/10.jpg", alt: "" },
         ],
       },
     ],

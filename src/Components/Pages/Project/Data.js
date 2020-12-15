@@ -1,3 +1,12 @@
+import Portfolio from "../Portfolio/Portfolio";
+import Shop from "../Shop/Shop";
+import Contacts from "../Contacts/Contacts";
+import Home from "../Home/Home";
+import Project from "../Project/Project";
+import Illustrations from "../Portfolio/Illustrations/Illustrations";
+import Layout from "../Portfolio/Layout/Layout";
+import Branding from "../Portfolio/Branding/Branding";
+
 export const Data = [
   {
     id: 1,
@@ -109,7 +118,7 @@ export const Data = [
         img: "/images/Illustrations/AveriePatch/",
         alt: "Averie Patch Project",
         title: "Averie Patch",
-        link: "/illustrations/averie-patch-project",
+        link: "/illustrations/averie-patch",
         caption:
           "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, molestiae. Blanditiis, enim.",
         description:
@@ -205,7 +214,7 @@ export const Data = [
   },
   {
     id: 3,
-    name: "layout",
+    name: "layout-design",
     document: [
       {
         id: 1,
@@ -214,7 +223,7 @@ export const Data = [
         title: "Dekornata",
         caption:
           "Godard direct trade drinking vinegar trust fund bushwick pop-up, tattooed vegan.",
-        link: "/layout/dekornata",
+        link: "/layout-design/dekornata",
         description:
           "Copper mug listicle activated charcoal, organic post-ironic gentrify banh mi air plant food truck yr small batch VHS brooklyn letterpress.",
         images: [
@@ -232,7 +241,7 @@ export const Data = [
         img: "/images/Layout/Journey/",
         alt: "Journey",
         title: "Journey",
-        link: "/layout/journey",
+        link: "/layout-design/journey",
         caption:
           "Whatever palo santo chartreuse snackwave knausgaard, copper mug prism gochujang schlitz post-ironic.",
         description:
@@ -256,7 +265,7 @@ export const Data = [
         img: "/images/Layout/Neville/",
         alt: "",
         title: "Neville",
-        link: "/layout/neville",
+        link: "/layout-design/neville",
         caption:
           "Pork belly twee swag tumeric kale chips. Street art skateboard brooklyn vegan microdosing.",
         description:
@@ -277,7 +286,7 @@ export const Data = [
         img: "/images/Layout/Ragunan/",
         alt: "",
         title: "Ragunan",
-        link: "/layout/ragunan",
+        link: "/layout-design/ragunan",
         caption:
           "Marfa ramps hexagon cred, 3 wolf moon small batch pinterest mlkshk farm-to-table tbh. ",
         description:
@@ -295,5 +304,89 @@ export const Data = [
         ],
       },
     ],
+  },
+  {
+    id: 5,
+    name: "Shop Page",
+    document: [
+      {
+        link: "/shop",
+        caption: "",
+        img: "",
+        alt: "shop page",
+      },
+    ],
+  },
+];
+
+export const routes = [
+  {
+    key: 1,
+    path: "/",
+    component: Home,
+  },
+  {
+    key: 2,
+    path: "/portfolio",
+    component: Portfolio,
+  },
+  {
+    key: 3,
+    path: "/shop",
+    component: Shop,
+  },
+  {
+    key: 4,
+    path: "/contact",
+    component: Contacts,
+  },
+  { key: 5, path: "/project", component: Project },
+  { key: 6, path: "/illustrations", component: Illustrations },
+  { key: 7, path: "/layout-design", component: Layout },
+  { key: 8, path: "/branding", component: Branding },
+  { key: 9, path: "/branding/kopi-cat", component: Project },
+  { key: 10, path: "/branding/mamake", component: Project },
+  { key: 11, path: "/branding/pyramid-coconut-oil", component: Project },
+  { key: 12, path: "/branding/roteri", component: Project },
+  { key: 13, path: "/branding/jungle-florist-rebranding", component: Project },
+  {
+    key: 14,
+    path: "/illustrations/averie-patch",
+    component: Project,
+  },
+  {
+    key: 15,
+    path: "/illustrations/the-daily-routine-of-my-cat",
+    component: Project,
+  },
+  {
+    key: 16,
+    path: "/illustrations/the-habits-and-lifestyles-of-happy-people",
+    component: Project,
+  },
+  {
+    key: 17,
+    path: "/illustrations/eln-draws-instagram",
+    component: Project,
+  },
+  {
+    key: 18,
+    path: "/layout-design/dekornata",
+    component: Project,
+  },
+  {
+    key: 19,
+    path: "/layout-design/neville",
+    component: Project,
+  },
+  {
+    key: 20,
+    path: "/layout-design/ragunan",
+    component: Project,
+  },
+  {
+    key: 21,
+    path: "/layout-design/journey",
+    component: Project,
   },
 ];

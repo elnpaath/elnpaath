@@ -4,6 +4,7 @@
   align-items: center;
   flex-flow: column;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .title h2 {

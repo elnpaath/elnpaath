@@ -1,9 +1,11 @@
 import React from "react";
 import ArtCard from "../../../ArtCard";
-import { Data } from "./Data";
+import { Data } from "../../Project/Data";
 
 function Layout(props) {
   const title = props.location.pathname.substring(1);
+  const BrandData = Data.filter((dat) => dat.name === title);
+  console.log(BrandData);
   return (
     <>
       <h1 className="header__title">{title}</h1>
@@ -13,7 +15,7 @@ function Layout(props) {
         literally food truck vegan, drinking vinegar skateboard activated
         charcoal chillwave leggings kickstarter small batch.
       </div>
-      {Data.map((dat) => (
+      {BrandData[0].document.map((dat) => (
         <ArtCard key={dat.id} {...dat} />
       ))}
     </>

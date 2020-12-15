@@ -14,6 +14,8 @@ function Project() {
   const tree = fir.split("-").join(" ");
   const result = imgDocArray.filter((dat) => dat.title.toLowerCase() === tree);
   const imagesToLoad = result[0].images;
+  // console.log(tree);
+
   return (
     <div>
       <div className="project__heading">

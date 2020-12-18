@@ -12,7 +12,6 @@ class App extends Component {
       <HashRouter basename={process.env.PUBLIC_URL}>
         <Banner />
         <div className="app-container">
-          {/* <Navbar /> */}
           <div className="headerNavReverse">
             <Navbar2 />
             <Header />

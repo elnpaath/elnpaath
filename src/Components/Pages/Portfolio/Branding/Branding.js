@@ -7,7 +7,7 @@ function Branding(props) {
   const BrandData = Data.filter((dat) => dat.name === title);
   return (
     <>
-      <h1 className="header__title">{title}</h1>
+      {/* <h1 className="header__title">{title}</h1> */}
       <div className="pages__description">
         I'm baby banjo marfa beard hell of DIY roof party cloud bread pickled
         brooklyn selfies chartreuse tilde hella. Hammock poke cloud bread

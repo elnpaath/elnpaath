@@ -1,5 +1,5 @@
 export const homeObjOne = {
-  question: "",
+  question: "Hello, I'm Eln",
   answer:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ipsa alias doloribus neque nobis? Nisi commodi nostrum ipsam hic enim recusandae est deleniti maiores quidem aut, dolore, veritatis modi tempore. Nostrum sint consequuntur quae alias aspernatur quas in fugit nihil excepturi! Dolor, voluptatibus. Omnis magnam provident magni ab voluptas velit, dolorem impedit dolor nostrum praesentium alias excepturi nobis autem animi.Rerum harum.",
+    "A dedicated and flexible Graphic Design student specialised in Illustration, Layout, and Branding. Worked with a considerable amount of design projects and a good number of clients, proving effective communication in design to ensure excellent execution of clients’ wants and needs. Able to work in teams and contribute in problem solving. Willing to learn and improve further in designand to explore the creative business world. ",
 };

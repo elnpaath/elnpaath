@@ -3,10 +3,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /* padding: 0 0 4rem 0; */
 }
 
 .header__logo {
   border: transparent;
+  border-radius: 50%;
   width: 70vw;
   object-fit: contain;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
@@ -15,7 +17,7 @@
 }
 
 .header__title {
-  padding: 2rem 0;
+  padding: 1rem 0;
   font-family: proxima-nova, sans-serif;
   color: #9e9e9e;
   letter-spacing: 2.5px;

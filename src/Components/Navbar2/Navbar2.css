@@ -46,6 +46,7 @@ a {
 
 .navbar__link--active {
   color: black;
+  font-size: 1.05rem;
 }
 @media screen and (min-width: 510px) {
   .navbar2 {

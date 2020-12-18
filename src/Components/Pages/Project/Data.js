@@ -18,11 +18,28 @@ export const Data = [
         alt: "Kopi Cat",
         title: "Kopi Cat",
         caption:
-          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, molestiae. Blanditiis, enim.",
+          "This is a branding project whereby I visualized the brand identity of a particular brand, which was Kopi Cat’s Cafe.",
 
         link: "/branding/kopi-cat",
         description:
-          "Copper mug listicle activated charcoal, organic post-ironic gentrify banh mi air plant food truck yr small batch VHS brooklyn letterpress.",
+          "This is a branding project whereby I visualized the brand identity of a particular brand, which was Kopi Cat’s Cafe. The brand identity is in the form of loge, choices of color scheme, as well as brand pattern, which was then applied to products such as the cafe’s front sign, takeout boxes, coffee cups, paper bag, menus, and stationaries for the company. Kopi Cat’s Cafe is a cat cafe owned by a pet service company Groovy that provides a hang out place where cat lovers can dine and play with cats. Kopi Cat’s known for its cozy interior that is relaxing and memorable, and its high quality cats that are clean and friendly. I have chosen this brand because it has so much potential with its quality service that is unique in Jakarta, with few competitors. There is also room for improvements for their current logo and brand identity.",
+        projectDetails: [
+          {
+            name: "The Problem",
+            text:
+              "Kopi Cat is a brand that is strong in their service, with a great reputation for their comfortable, clean space, and healthy, friendly cats. However, from their current logo to their brand identity elements, the quality of the service was not reprented in a way that is effective enough.",
+          },
+          {
+            name: "The Solution",
+            text:
+              "The new logo and brand identity was designed to be on the modern side and to effectively present their playful, friendly, and warm personality.",
+          },
+          {
+            name: "The Process",
+            text:
+              "The development of the company’s brand identity began with a research process whereby I have observed the place itself and the service provided, visited their website and instagram account, and read through their reviews. Through that, I have gained insight on their strengths, weaknesses, threats, and opportunities, what stood out from them to their competitors, who their target markets are, as well as the over all brand personality that needs to be expressed through the design elements. Afterwards, a series of 100 logo sketches were done, and with five developed on procreate and illustrator, and finally 1 that is finalized. Lastly, an additional elements, such as the brand pattern and brand color scheme were added to compliment the logo.",
+          },
+        ],
         images: [
           { img: "/images/Branding/KopiCat/cover.jpg", alt: "" },
           { img: "/images/Branding/KopiCat/1.jpg", alt: "" },
@@ -79,10 +96,10 @@ export const Data = [
         alt: "",
         title: "Roteri",
         caption:
-          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, molestiae. Blanditiis, enim.",
+          "A sole trader business that is run by a mother who sells baked goods, ranging from breads and traditional snacks or cakes",
         link: "/branding/roteri",
         description:
-          "Copper mug listicle activated charcoal, organic post-ironic gentrify banh mi air plant food truck yr small batch VHS brooklyn letterpress.",
+          "Roteri is a sole trader business that is run by a mother who sells baked goods, ranging from breads and traditional snacks or cakes. For the near future, she aims to have her own brand identity that is more modern and elegant. For this project, solely, I have designed the logo of the brand that will be printed on her stickers to be applied on her products, as well as in her instagram business account. The font chosen for the name of the brand is Sofia, having an aesthetic that is feminine and organic, illuminating the personality and the quality of the products. Additionally, the font Baskerville used for the complementary font is elegant, yet modern. Furthermore, the logo was placed at an angle to illustrate the naturalness of the brand.",
         images: [
           { img: "/images/Branding/Roteri/cover.jpg", alt: "" },
           { img: "/images/Branding/Roteri/1.jpg", alt: "" },
@@ -99,7 +116,9 @@ export const Data = [
         alt: "",
         title: "Jungle Florist Rebranding",
         caption:
-          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, molestiae. Blanditiis, enim.",
+          "Rebranding of a sole trader startup business that provides the service of producing flower arrangements.",
+        description:
+          "The Jungle Florist is a sole trader startup business that provides the service of producing flower arrangements. The owner started off with no logo and no complimentary design elements. For this project, I was tasked to design the business card, a shop banner, as well as a christmas greeting, which includes a photograph shot by me. The choices of font of the logo, the color scheme, and the style of illustration were designed to match the target market of the business and the warm and feminine personality of the owner.",
         link: "/branding/jungle-florist-rebranding",
         images: [
           { img: "/images/Branding/JungleFlorist/cover.jpg", alt: "" },
@@ -119,10 +138,9 @@ export const Data = [
         alt: "Averie Patch Project",
         title: "Averie Patch",
         link: "/illustrations/averie-patch",
-        caption:
-          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, molestiae. Blanditiis, enim.",
+        caption: "A collaboration project with a clothing company",
         description:
-          "Copper mug listicle activated charcoal, organic post-ironic gentrify banh mi air plant food truck yr small batch VHS brooklyn letterpress.",
+          "Avarie is an online store that mainly sell clothing created and designed by the owner of the brand. This project is a collaboration between the owner and I for a new product launch, which is a t-shirt with a changable patch function, and my job was to illustrate the patches. The food theme was devided into five categories, which are Indonesian, Japannese, Korean, French, and junk food. This particular illustration project was slightly different than what I was used to, due to the media of execution. Thus, there were some alterations of style in order to accomodate for the embroidery process that comes after",
         images: [
           { img: "/images/Illustrations/AveriePatch/cover.jpg", alt: "" },
           { img: "/images/Illustrations/AveriePatch/1.jpg", alt: "" },
@@ -153,9 +171,9 @@ export const Data = [
         title: "The Daily Routine of My Cat",
         link: "/illustrations/the-daily-routine-of-my-cat",
         caption:
-          "A set of travel stickers for Steamline Luggage, a luxury vintage suitcase maker.",
+          "The Daily Routine of My Cat is one of the illustrations work I am quite proud of.",
         description:
-          "Copper mug listicle activated charcoal, organic post-ironic gentrify banh mi air plant food truck yr small batch VHS brooklyn letterpress.",
+          "The Daily Routine of My Cat is one of the illustrations work I am quite proud of. The Illustrations were done by me and the content was written by a poet named M. Tarun Prasad. In short, it tells the whole story of a regular cat’s routines from morning until night. For a long time, I have always wanted to try to illustrate a children’s book.. Thus, this was a project I was very excited to do. It was also a very challenging one as it was the very first time I have actually illustrated a more complex concept with the story.",
         images: [
           { img: "/images/Illustrations/Book1/cover.jpg", alt: "" },
           { img: "/images/Illustrations/Book1/1.jpg", alt: "" },
@@ -172,9 +190,9 @@ export const Data = [
         title: "The Habits and Lifestyles of Happy People",
         link: "/illustrations/the-habits-and-lifestyles-of-happy-people",
         caption:
-          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, molestiae. Blanditiis, enim.",
+          "Written and designed by me. Each spread talks about one or two ways of how people pursue a happier life.",
         description:
-          "Copper mug listicle activated charcoal, organic post-ironic gentrify banh mi air plant food truck yr small batch VHS brooklyn letterpress.",
+          "The Habits and Lifestyles of Happy People is a fact based book written and designed by me. Each spread talks about one or two ways of how people pursue a happier life. After brainstorming book ideas and browsing through some available journals, I have finally chosen to do a book on the habits and lifestyles of happy people. This topic is appealing to me because it highlights the practical ways in which people can obtain happiness, which is something that can be challenging considering the fact that we live in a highly competitive and stressful world. It also touches on psychology, which is a subject that I am very interested in. Personally, I think that this project was a great opportunity for me because not only did I designed the whole book, but I was also writting the whole content, which I took as a learning opportunity for myself.",
         images: [
           { img: "/images/Illustrations/Book2/cover.jpg", alt: "" },
           { img: "/images/Illustrations/Book2/1.jpg", alt: "" },
@@ -193,10 +211,10 @@ export const Data = [
         img: "/images/Illustrations/Instagram/",
         alt: "instagram project",
         title: "Eln Draws Instagram",
-        caption: "An archive of my Illustrations and doodles",
+        caption: "An instgram account of my own that I manage in my free time.",
         link: "/illustrations/eln-draws-instagram",
         description:
-          "Copper mug listicle activated charcoal, organic post-ironic gentrify banh mi air plant food truck yr small batch VHS brooklyn letterpress.",
+          "@eln.draws_ is an instgram account of my own that I am currently trying to manage in my free time, particularly focused in lifestyle, and at times, surrealist digital art. The specific style that is perpetually used in this account is one that I am most drawn to develop as my own authentic style, influenced by a number of artists that I look up to, combined with my own take. The concepts of my art are centered around my daily life, experiences, and escapism ideas appears in my mind. Displayed are a few of my favourite posts.",
         images: [
           { img: "/images/Illustrations/Instagram/cover.jpg", alt: "" },
           { img: "/images/Illustrations/Instagram/1.jpg", alt: "" },

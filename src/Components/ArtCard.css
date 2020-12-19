@@ -1,17 +1,20 @@
 .artcard__wrapper {
   display: flex;
-  margin: 17px 0;
+  margin-bottom: 17px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
   overflow: hidden;
 }
+.artcard__wrapper a {
+  height: 100%;
+}
 
 .artcard-img {
   width: 100%;
-  height: auto;
-  object-fit: contain;
+  height: 100%;
+  object-fit: cover;
   cursor: pointer;
 }
 
@@ -23,7 +26,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #fafafa;
+  background-color: #ffffff;
   padding: 10%;
 }
 
@@ -51,6 +54,7 @@
     justify-content: space-between;
     box-shadow: none;
     position: relative;
+    margin: 17px;
   }
   .artcard-img {
     width: 49%;
@@ -65,4 +69,15 @@
     bottom: 0;
     left: 51%;
   }
+}
+
+@media screen and (min-width: 768px) {
+  .artcard__wrapper {
+    height: 210px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  /* .artcard__wrapper {
+    height: 270px;
+  } */
 }

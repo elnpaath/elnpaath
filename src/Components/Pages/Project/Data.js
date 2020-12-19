@@ -64,7 +64,7 @@ export const Data = [
           "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, molestiae. Blanditiis, enim.",
         link: "/branding/mamake",
         description:
-          "Copper mug listicle activated charcoal, organic post-ironic gentrify banh mi air plant food truck yr small batch VHS brooklyn letterpress.",
+          "Mamake was a brand that I had the opportunity to work with, during a business start up event, hosted by Grab. The brand identity, which is applied solely on this particular product, vegetable chips was to some extent, predicated upon the personality of the owner, that I had an interview session with, as well as the quality of her product. Her personality can be described as bubbly and youthful, despite her mature age. Hence, I chose to use bright, light-toned colors. The vegetables used for her product are organic and fresh. Hence, I have incoorporated organic shapes in the logo, as well as the illustrations on the packaging. Moreover, compared to the old one, not only is the new design more modern, but it is color coordinated per type of vegetables, creating identity for them. To mantain practicality for the owner, a check box system is still used for the flavour choices, which were not available in the old packaging.",
         images: [
           { img: "/images/Branding/Mamake/2.jpg", alt: "" },
           { img: "/images/Branding/Mamake/1.jpg", alt: "" },

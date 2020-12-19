@@ -6,6 +6,8 @@
   border-bottom: black 1px solid;
   padding: 1rem;
   text-align: center;
+  position: static;
+  top: 0;
 }
 .banner__p {
   color: white;

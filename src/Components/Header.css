@@ -12,12 +12,11 @@
   width: 70vw;
   object-fit: contain;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  max-width: 300px;
-  margin-top: 1rem;
+  max-width: 250px;
 }
 
 .header__title {
-  padding: 1rem 0;
+  padding: 3rem 0;
   font-family: proxima-nova, sans-serif;
   color: #9e9e9e;
   letter-spacing: 2.5px;
